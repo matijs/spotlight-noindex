@@ -1,6 +1,6 @@
 {
   "name": "spotlight-noindex",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Prevent Spotlight on macOS from indexing node_modules",
   "license": "MIT",
   "repository": {
@@ -9,12 +9,8 @@
   },
   "bugs": "https://github.com/matijs/spotlight-noindex/issues",
   "keywords": [
-    "spotlight",
-    "macos",
-    "index",
-    "indexing",
     "node_modules",
-    "metadata"
+    "spotlight"
   ],
   "engines": {
     "node:": ">=4"
@@ -23,10 +19,6 @@
     "postinstall": "spotlight-noindex"
   },
   "author": "Matijs <matijs@gmail.com>",
-  "keywords": [
-    "node_modules",
-    "spotlight"
-  ],
   "main": "index.js",
   "bin": {
     "spotlight-noindex": "index.js"
