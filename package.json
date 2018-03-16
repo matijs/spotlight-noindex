@@ -33,6 +33,7 @@
   },
   "files": [
     "index.js",
-    "LICENSE"
+    "LICENSE",
+    "README.md"
   ]
 }
