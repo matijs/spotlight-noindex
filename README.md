@@ -1,8 +1,12 @@
 # spotlight-noindex
 
+[![Version on npm](https://img.shields.io/npm/v/spotlight-noindex.svg)](https://npmjs.com/package/spotlight-noindex)
+
 Prevents Spotlight on macOS from indexing your `node_modules` directory.
 
 ## Installation
+
+It's recommended to add spotlight-noindex to your project as a development dependency.
 
 ```bash
 $ npm install --save-dev spotlight-noindex

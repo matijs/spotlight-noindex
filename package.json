@@ -27,5 +27,10 @@
   },
   "license": "MIT",
   "bugs": "https://github.com/matijs/spotlight-noindex/issues",
-  "homepage": "https://github.com/matijs/spotlight-noindex#readme"
+  "homepage": "https://github.com/matijs/spotlight-noindex#readme",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "index.js"
+  ]
 }
