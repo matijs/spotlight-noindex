@@ -8,6 +8,8 @@ Prevents Spotlight on macOS from indexing your `node_modules` directory.
 
 It's recommended to add spotlight-noindex to your project as a development dependency.
 
+**important**: Do not install spotlight-noindex globally.
+
 ```bash
 $ npm install --save-dev spotlight-noindex
 ```
