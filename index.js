@@ -1,14 +1,19 @@
 #!/usr/bin/env node
 
+"use strict";
+
 const os = require('os');
 const path = require('path');
 const fs = require('fs');
 
-const isGlobalInstall = process.env.npm_config_global;
-
-if (isGlobalInstall) {
-  console.log('Please do not install spotlight-noindex globally.')
+if (process.env.npm_config_global) {
+  console.error('spotlight-noindex is not meant to be installed globally.')
   process.exit(1);
+}
+
+if (process.env.npm_lifecycle_event !== 'postinstall') {
+  console.error('spotlight-noindex is not meant to be run from the commandline.')
+  process.exit(2);
 }
 
 // Only care about macOS
