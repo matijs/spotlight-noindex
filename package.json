@@ -1,6 +1,6 @@
 {
   "name": "spotlight-noindex",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Prevent Spotlight on macOS from indexing node_modules",
   "keywords": [
     "spotlight",
