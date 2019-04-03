@@ -23,7 +23,7 @@
     "url": "https://github.com/matijs/spotlight-noindex.git"
   },
   "engines": {
-    "node:": ">=4"
+    "node": ">=4"
   },
   "license": "MIT",
   "bugs": "https://github.com/matijs/spotlight-noindex/issues",
