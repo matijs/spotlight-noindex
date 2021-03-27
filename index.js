@@ -22,7 +22,7 @@ if (os.platform() === 'darwin') {
 
   fs.open(filePath, 'w', (error, fd) => {
     if (!error) {
-      fs.close(fd);
+      fs.closeSync(fd);
       process.exit(0);
     }
   });
